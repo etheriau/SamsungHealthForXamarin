@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!-- These two constants conflict in C# -->
+	<attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Weight']/field[@name='WEIGHT']" name="name">WeightName</attr>
+	<attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.HeartRate']/field[@name='HEART_RATE']" name="name">HeartRateName</attr>
+
+	<!-- This class references something not found; skipping -->
+	<remove-node path="/api/package[@name='com.samsung.android.sdk.shealth.tracker']/class[@name='TrackerTile']" />
+</metadata>

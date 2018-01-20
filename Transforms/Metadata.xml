@@ -3,6 +3,32 @@
 	<!-- These two constants conflict in C# -->
 	<attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Weight']/field[@name='WEIGHT']" name="name">WeightName</attr>
 	<attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.HeartRate']/field[@name='HEART_RATE']" name="name">HeartRateName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Albumin']/field[@name='ALBUMIN']" name="name">AlbuminName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Alp']/field[@name='ALP']" name="name">AlpName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Alt']/field[@name='ALT']" name="name">AltName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Amylase']/field[@name='AMYLASE']" name="name">AmylaseName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Ast']/field[@name='AST']" name="name">AstName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.BodyFat']/field[@name='BODY_FAT']" name="name">BodyFatName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.BodyMuscle']/field[@name='BODY_MUSCLE']" name="name">BodyMuscleName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Bun']/field[@name='BUN']" name="name">BunName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Cpk']/field[@name='CPK']" name="name">CpkName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Creatinine']/field[@name='CREATININE']" name="name">CreatinineName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.DirectBilirubin']/field[@name='DIRECT_BILIRUBIN']" name="name">DirectBilirubinName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Fev1']/field[@name='FEV1']" name="name">Fev1Name</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Fvc']/field[@name='FVC']" name="name">FvcName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Ggt']/field[@name='GGT']" name="name">GgtName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Globulin']/field[@name='GLOBULIN']" name="name">GlobulinName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Hdlc']/field[@name='HDLC']" name="name">HdlcName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Height']/field[@name='HEIGHT']" name="name">HeightName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Homocysteine']/field[@name='HOMOCYSTEINE']" name="name">HomocysteineName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Ldh']/field[@name='LDH']" name="name">LdhName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Ldlc']/field[@name='LDLC']" name="name">LdlcName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.TotalBilirubin']/field[@name='TOTAL_BILIRUBIN']" name="name">TotalBilirubinName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.TotalCholesterol']/field[@name='TOTAL_CHOLESTEROL']" name="name">TotalCholesterolName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.TotalProtein']/field[@name='TOTAL_PROTEIN']" name="name">TotalProteinName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Triglyceride']/field[@name='TRIGLYCERIDE']" name="name">TriglycerideName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Uph']/field[@name='UPH']" name="name">UphName</attr>
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/interface[@name='HealthConstants.Usg']/field[@name='USG']" name="name">UsgName</attr>
 
 	<!-- This class references something not found; skipping -->
 	<remove-node path="/api/package[@name='com.samsung.android.sdk.shealth.tracker']/class[@name='TrackerTile']" />

@@ -47,9 +47,8 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\samsung-digital-health-shealth-v1.2.0.jar" />
-    <EmbeddedJar Include="Jars\samsung-digital-health-healthdata-1.2.1.jar" />
     <EmbeddedJar Include="Jars\sdk-v1.0.0.jar" />
+    <EmbeddedJar Include="Jars\samsung-health-data-v1.3.0.jar" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Additions\" />

@@ -1,6 +1,8 @@
 # SamsungHealthForXamarin
 If you are developing on Xaramin and are trying to get the Samsung Digital Health API working, this library should help.
 
+*NOTE* This project has been moved to https://bitbucket.org/etheriau/samsunghealthforxamarin
+
 # Getting Started
 * Download the SDK from http://developer.samsung.com/health and copy the 3 jars into Jars/ .
 * In Xamarin, add these jars to the project.

@@ -32,4 +32,8 @@
 
 	<!-- This class references something not found; skipping -->
 	<remove-node path="/api/package[@name='com.samsung.android.sdk.shealth.tracker']/class[@name='TrackerTile']" />
+	
+    <!-- Iterator issue; see: https://www.jimbobbennett.io/binding-the-cognitive-services-android-speech-sdk/ -->
+    <attr path="/api/package[@name='com.samsung.android.sdk.healthdata']/class[@name='HealthDataResolver.ResultIterator']/method[@name='iterator' and count(parameter)=0]" name="managedReturn">Java.Util.IIterator</attr>
+    <remove-node path="/api/package[@name='com.samsung.android.sdk.healthdata']/class[@name='HealthDataResolver.ResultIterator']/method[@name='next' and count(parameter)=0]"/>
 </metadata>
